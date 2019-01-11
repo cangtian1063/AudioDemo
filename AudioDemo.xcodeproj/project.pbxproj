@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F24E8F821E73F4300F9FD63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24E8F721E73F4300F9FD63 /* AppDelegate.m */; };
+		2F24E8FB21E73F4300F9FD63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24E8FA21E73F4300F9FD63 /* ViewController.m */; };
+		2F24E8FE21E73F4300F9FD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F24E8FC21E73F4300F9FD63 /* Main.storyboard */; };
+		2F24E90021E73F4300F9FD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F24E8FF21E73F4300F9FD63 /* Assets.xcassets */; };
+		2F24E90321E73F4300F9FD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F24E90121E73F4300F9FD63 /* LaunchScreen.storyboard */; };
+		2F24E90621E73F4300F9FD63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24E90521E73F4300F9FD63 /* main.m */; };
+		2F24E90E21E7400100F9FD63 /* NSString+TMKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24E90D21E7400000F9FD63 /* NSString+TMKit.m */; };
+		2F24E91121E742D700F9FD63 /* UIButton+TMChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24E91021E742D700F9FD63 /* UIButton+TMChain.m */; };
+		F1B631742E396E48E5925687 /* Pods_AudioDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D4CF1592BC292D242DEB22B /* Pods_AudioDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0281B33C5C7CF1358BFBEAC5 /* Pods-AudioDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioDemo/Pods-AudioDemo.release.xcconfig"; sourceTree = "<group>"; };
+		0EAD6173878E85E552720609 /* Pods-AudioDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioDemo/Pods-AudioDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2F24E8F321E73F4300F9FD63 /* AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F24E8F621E73F4300F9FD63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F24E8F721E73F4300F9FD63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F24E8F921E73F4300F9FD63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F24E8FA21E73F4300F9FD63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F24E8FD21E73F4300F9FD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F24E8FF21E73F4300F9FD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F24E90221E73F4300F9FD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F24E90421E73F4300F9FD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F24E90521E73F4300F9FD63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F24E90C21E7400000F9FD63 /* NSString+TMKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TMKit.h"; sourceTree = "<group>"; };
+		2F24E90D21E7400000F9FD63 /* NSString+TMKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TMKit.m"; sourceTree = "<group>"; };
+		2F24E90F21E742D700F9FD63 /* UIButton+TMChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TMChain.h"; sourceTree = "<group>"; };
+		2F24E91021E742D700F9FD63 /* UIButton+TMChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TMChain.m"; sourceTree = "<group>"; };
+		5D4CF1592BC292D242DEB22B /* Pods_AudioDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F24E8F021E73F4300F9FD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B631742E396E48E5925687 /* Pods_AudioDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F24E8EA21E73F4300F9FD63 = {
+			isa = PBXGroup;
+			children = (
+				2F24E8F521E73F4300F9FD63 /* AudioDemo */,
+				2F24E8F421E73F4300F9FD63 /* Products */,
+				94393C33658A17B8AEC21132 /* Pods */,
+				EFAA3767D65EACE09251E9C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F24E8F421E73F4300F9FD63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F24E8F321E73F4300F9FD63 /* AudioDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F24E8F521E73F4300F9FD63 /* AudioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2F24E8F621E73F4300F9FD63 /* AppDelegate.h */,
+				2F24E8F721E73F4300F9FD63 /* AppDelegate.m */,
+				2F24E8F921E73F4300F9FD63 /* ViewController.h */,
+				2F24E8FA21E73F4300F9FD63 /* ViewController.m */,
+				2F24E90C21E7400000F9FD63 /* NSString+TMKit.h */,
+				2F24E90D21E7400000F9FD63 /* NSString+TMKit.m */,
+				2F24E90F21E742D700F9FD63 /* UIButton+TMChain.h */,
+				2F24E91021E742D700F9FD63 /* UIButton+TMChain.m */,
+				2F24E8FC21E73F4300F9FD63 /* Main.storyboard */,
+				2F24E8FF21E73F4300F9FD63 /* Assets.xcassets */,
+				2F24E90121E73F4300F9FD63 /* LaunchScreen.storyboard */,
+				2F24E90421E73F4300F9FD63 /* Info.plist */,
+				2F24E90521E73F4300F9FD63 /* main.m */,
+			);
+			path = AudioDemo;
+			sourceTree = "<group>";
+		};
+		94393C33658A17B8AEC21132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EAD6173878E85E552720609 /* Pods-AudioDemo.debug.xcconfig */,
+				0281B33C5C7CF1358BFBEAC5 /* Pods-AudioDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFAA3767D65EACE09251E9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D4CF1592BC292D242DEB22B /* Pods_AudioDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F24E8F221E73F4300F9FD63 /* AudioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F24E90921E73F4300F9FD63 /* Build configuration list for PBXNativeTarget "AudioDemo" */;
+			buildPhases = (
+				EB5BDB29EB0D032F0BFC5EB5 /* [CP] Check Pods Manifest.lock */,
+				2F24E8EF21E73F4300F9FD63 /* Sources */,
+				2F24E8F021E73F4300F9FD63 /* Frameworks */,
+				2F24E8F121E73F4300F9FD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioDemo;
+			productName = AudioDemo;
+			productReference = 2F24E8F321E73F4300F9FD63 /* AudioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F24E8EB21E73F4300F9FD63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TianMeng;
+				TargetAttributes = {
+					2F24E8F221E73F4300F9FD63 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2F24E8EE21E73F4300F9FD63 /* Build configuration list for PBXProject "AudioDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F24E8EA21E73F4300F9FD63;
+			productRefGroup = 2F24E8F421E73F4300F9FD63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F24E8F221E73F4300F9FD63 /* AudioDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F24E8F121E73F4300F9FD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F24E90321E73F4300F9FD63 /* LaunchScreen.storyboard in Resources */,
+				2F24E90021E73F4300F9FD63 /* Assets.xcassets in Resources */,
+				2F24E8FE21E73F4300F9FD63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB5BDB29EB0D032F0BFC5EB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F24E8EF21E73F4300F9FD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F24E91121E742D700F9FD63 /* UIButton+TMChain.m in Sources */,
+				2F24E8FB21E73F4300F9FD63 /* ViewController.m in Sources */,
+				2F24E90621E73F4300F9FD63 /* main.m in Sources */,
+				2F24E8F821E73F4300F9FD63 /* AppDelegate.m in Sources */,
+				2F24E90E21E7400100F9FD63 /* NSString+TMKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F24E8FC21E73F4300F9FD63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F24E8FD21E73F4300F9FD63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F24E90121E73F4300F9FD63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F24E90221E73F4300F9FD63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F24E90721E73F4300F9FD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F24E90821E73F4300F9FD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F24E90A21E73F4300F9FD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAD6173878E85E552720609 /* Pods-AudioDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE4SFYMAXM;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5iyaoxin.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F24E90B21E73F4300F9FD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0281B33C5C7CF1358BFBEAC5 /* Pods-AudioDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YE4SFYMAXM;
+				HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.5iyaoxin.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F24E8EE21E73F4300F9FD63 /* Build configuration list for PBXProject "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F24E90721E73F4300F9FD63 /* Debug */,
+				2F24E90821E73F4300F9FD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F24E90921E73F4300F9FD63 /* Build configuration list for PBXNativeTarget "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F24E90A21E73F4300F9FD63 /* Debug */,
+				2F24E90B21E73F4300F9FD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F24E8EB21E73F4300F9FD63 /* Project object */;
+}
